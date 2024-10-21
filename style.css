@@ -1,0 +1,133 @@
+
+.hedaer{
+    margin: 10px;
+
+}
+.hedaer h1{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.menu{
+
+}
+.menu ul{
+    display: flex;
+  
+    padding: 10px;
+    background-color: brown;
+}
+.menu ul li{
+  
+    list-style:none;
+}
+.menu ul li a{
+    margin:10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color:aqua
+}
+.menu ul li a:hover{
+    color: white;
+    background-color: black;
+}.contentSection {
+    gap: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}.leftSidebar{
+    
+    width: 40%;
+        
+    background: gray;
+        
+    text-align: center;
+}
+.leftSidebar p {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-family: monospace;
+}
+.mianContent{
+
+    width: 60%;
+   
+    background: gray;
+    text-transform: capitalize;
+}
+.mianContent h1{
+    text-align: center;
+    border:5px dashed rgb(0, 0, 0);
+    margin:10px;
+    padding: 10px;
+}
+.mianContent img{
+    width:400px;
+}
+.mianContent h2{
+    border:1px solid  black;
+    margin:10px;
+    padding: 10px;
+}
+.mianContent .paragraph{
+    margin: 10px;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin:10px;
+}
+
+@media screen  and (max-width:500px){
+    .hedaer h1{
+        font-size: 22px;
+    }
+    .menu{
+      flex-direction: column;
+    }
+    .menu ul{
+        display: block;
+        background-color:black;
+    }
+    .menu ul li{
+        padding: 10px;
+    }
+    .menu ul li a{
+        font-size: 16px;
+        
+        padding: 10px;
+        margin:10px;
+    }
+    .menu ul li a:hover{
+        background:rgb(192, 22, 22);
+        color:white;
+    }.contentSection{
+        display: inline;
+    }
+
+    .leftSidebar{
+        width: 100%;
+    }
+    .mianContent{
+        width: 100%;
+    }
+    .mianContent h1{
+       
+        padding-top:10px;
+        border:1px solid black;
+       
+    }
+    .dremaImg {
+            margin-left: 88px;
+            margin-top: 37px;
+            width: 233px !important;
+        }
+}
